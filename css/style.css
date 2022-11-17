@@ -500,6 +500,31 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 /* ===================================
     05. Custom
 ====================================== */
+/* section backgrounds */
+.section-bg-main {
+    background-image: url('../images/papa.png');
+}
+.section-bg-2{
+    background-image: url('../images/papa-mama-wedding-section.png');
+}
+.section-bg-3{
+    background-image: url('../images/papa-children.png');
+}
+.section-bg-4{
+    background-image: url('../images/papa-grandkids.png');
+}
+.section-bg-5{
+    background-image: url('../images/papa-outro.png');
+}
+
+
+/* 
+.portfolio-image{
+    border: 5px white solid;
+} */
+.nav-text-margin {
+    margin-right: 60px;
+}
 
 section { padding: 130px 0; overflow: hidden; }
 section.big-section { padding:160px 0; }
