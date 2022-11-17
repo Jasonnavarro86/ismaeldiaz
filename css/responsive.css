@@ -6408,7 +6408,6 @@
         margin-top: -53px;
         margin-left: 20px
     }
-
     
 .portfolio-image{
     border: 5px white solid;
@@ -8031,8 +8030,29 @@
 @media (max-height: 460px) {
     /* header search */
     .active-form .form-wrapper .search-form { height: 85vh; }
-}
 
+}
+@media (max-width: 460px) {
+    /* header search */
+    .mobil-heading-sectiont-1{
+        font-size: 58px !important;
+        line-height: 55px !important;
+        letter-spacing: -4px !important;
+    }
+    .section-bg-main {
+        background-image: url('../images/papa-mobil.png');
+    }
+}
+@media (max-width: 324px) {
+    /* header search */
+    .mobil-heading-sectiont-1{
+        font-size: 47px !important;
+        line-height: 43px !important;
+    }
+    .section-bg-main {
+        background-image: url('../images/papa-mobil.png');
+    }
+}
 @media (max-height: 600px) {
     /* modern menu */
     [data-mobile-nav-style=modern] .navbar-modern-inner .navbar-collapse { padding-top: 30px; padding-bottom: 30px; }
