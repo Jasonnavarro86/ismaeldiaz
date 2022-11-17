@@ -4782,6 +4782,11 @@
     .center-col-style .custom-col { flex: 0 0 100%; max-width: 100%; margin: 8px 0; }
     .sm-last-order { order: 10; }
 
+    /* custom */
+    .mt-mobil-40 {
+        margin-top: 45px !important;
+        font-size: 33px !important;
+    }
     /* typography */
     p { margin: 0 0 15px }
 
@@ -6406,7 +6411,14 @@
     }
     .sm-heading {
         margin-top: -53px;
-        margin-left: 20px
+        margin-left: 28px
+    }
+    .mt-mobil-40 {
+        margin-top: 23px !important;
+        font-size: 35px !important;
+    }
+    .text-mobil-20 {
+        font-size: 20px;
     }
     
 .portfolio-image{
@@ -8027,11 +8039,17 @@
     /* countdown style 02 */
     .countdown.countdown-style-02 .countdown-box { margin-bottom: 15px; padding: 0 25px; }
 }
+
 @media (max-height: 460px) {
     /* header search */
     .active-form .form-wrapper .search-form { height: 85vh; }
-
 }
+@media (max-width: 469px) {
+    .text-mobil-20 {
+        font-size: 20px !important;
+    }
+}
+
 @media (max-width: 460px) {
     /* header search */
     .mobil-heading-sectiont-1{
@@ -8042,6 +8060,37 @@
     .section-bg-main {
         background-image: url('../images/papa-mobil.png');
     }
+    .section-bg-2{
+        background-image: url('../images/papa-mama-wedding-section-mobil.png');
+    }
+    .section-bg-3{
+        background-image: url('../images/papa-children-mobil.png');
+    }
+    .section-bg-4{
+        background-image: url('../images/papa-grandkids-mobil.png');
+    }
+    .section-bg-5{
+        background-image: url('../images/papa-outro-mobil.png');
+    }
+    .mobil-change-height-527 {
+        height: 527px !important;
+        margin-top: -30px;
+    }
+
+    .mobil-change-height-660{
+        height: 660px !important;
+        margin-top: -20px
+    }
+    .mobil-change-height-600 {
+        height: 660px !important;
+    }
+    .mt-mobil-40 {
+        margin-top: 40px !important;
+        font-size: 30px !important;
+    }
+    .text-mobil-20 {
+        font-size: 20px !important;
+    }
 }
 @media (max-width: 324px) {
     /* header search */
@@ -8049,9 +8098,7 @@
         font-size: 47px !important;
         line-height: 43px !important;
     }
-    .section-bg-main {
-        background-image: url('../images/papa-mobil.png');
-    }
+ 
 }
 @media (max-height: 600px) {
     /* modern menu */
@@ -8063,11 +8110,4 @@
 
     /* height */
     .full-screen-auto { height: auto !important; }
-    .mobil-heading-sectiont-1{
-        font-size: 47px !important;
-        line-height: 43px !important;
-    }
-    .section-bg-main {
-        background-image: url('../images/papa-mobil.png');
-    }
 }
