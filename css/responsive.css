@@ -8063,5 +8063,11 @@
 
     /* height */
     .full-screen-auto { height: auto !important; }
-
+    .mobil-heading-sectiont-1{
+        font-size: 47px !important;
+        line-height: 43px !important;
+    }
+    .section-bg-main {
+        background-image: url('../images/papa-mobil.png');
+    }
 }
