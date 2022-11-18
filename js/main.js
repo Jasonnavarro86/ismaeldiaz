@@ -27,7 +27,7 @@
     if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
         isiPhoneiPad = true;
     }
-
+    $("#copyrightYear").html(`${new Date().getFullYear()}`)
     /****** jQuery Appear ******/
     $( '.image-back-offset-shadow, .vertical-counter, .counter, .progress-bar, .pie-chart-style-01, .pie-chart-style-02' ).each( function() {
         $( this ).appear().trigger( 'resize' );

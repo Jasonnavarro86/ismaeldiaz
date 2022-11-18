@@ -8091,14 +8091,46 @@
     .text-mobil-20 {
         font-size: 20px !important;
     }
+ .pt-mobil-60{
+    padding-top: 60px
+ }
+ .mobil-text-27 {
+    font-size: 27px;
+ }
 }
+@media (max-width: 405px) {
+   .mobil-text-24{
+    font-size: 24px;
+   }
+   .pt-mobil-60{
+    padding-top: 35px
+ }
+ 
+}
+@media (max-width: 365px) {
+    .mobil-text-24{
+     font-size: 29px;
+    }
+    .pt-mobil-60{
+        padding-top: 20px !important
+     }
+     .mobil-text-27 {
+        font-size: 29px;
+     }
+ }
 @media (max-width: 324px) {
     /* header search */
     .mobil-heading-sectiont-1{
         font-size: 47px !important;
         line-height: 43px !important;
     }
- 
+    .mt-mobil-40 {
+      
+        font-size: 28px !important;
+    }
+    .text-mobil-20 {
+        font-size: 14px !important;
+    }
 }
 @media (max-height: 600px) {
     /* modern menu */
