@@ -8058,19 +8058,19 @@
         letter-spacing: -4px !important;
     }
     .section-bg-main {
-        background-image: url('../images/papa-mobil.png');
+        background-image: url('../images/papa-mobil.svg');
     }
     .section-bg-2{
-        background-image: url('../images/papa-mama-wedding-section-mobil.png');
+        background-image: url('../images/papa-mama-wedding-section-mobil.svg');
     }
     .section-bg-3{
-        background-image: url('../images/papa-children-mobil.png');
+        background-image: url('../images/papa-children-mobil.svg');
     }
     .section-bg-4{
-        background-image: url('../images/papa-grandkids-mobil.png');
+        background-image: url('../images/papa-grandkids-mobil.svg');
     }
     .section-bg-5{
-        background-image: url('../images/papa-outro-mobil.png');
+        background-image: url('../images/papa-outro-mobil.svg');
     }
     .mobil-change-height-527 {
         height: 527px !important;
